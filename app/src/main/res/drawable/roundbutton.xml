@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+    <item android:state_pressed="true" android:drawable="@drawable/clickchange"/>
+
+    <gradient
+        android:angle="45"
+        android:type="linear"
+        android:startColor="#ff0000"
+        android:centerColor="#40ff00"
+        android:endColor="#00ffff"/>
+
+    <corners android:radius="800dp"></corners>
+    </shape>
